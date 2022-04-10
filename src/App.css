@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+
+  border: 1px solid red;
+}
+.scoreCount,.wicketCount,.overCount{
+  font-size: 50px;
+  margin: 1%;
+}
+.addScore> button{
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: black;
+  font-size: 25px;
+  color: white;
+}
+
+.addWicket> button{
+  width: 200px;
+  margin-top: 20px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 15px;
+  margin-left: 10px;
+  background-color: black;
+  font-size: 25px;
+  color: white;
+}
+.addBall> button{
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+
+  margin-left: 10px;
+  background-color: black;
+  font-size: 25px;
+  color: white;
+}
+.addBall,.addScore,.addWicket{
+  font-size: 25px;
+  font-weight: 500;
+}
+
